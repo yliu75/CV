@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CV"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="350" Width="525" Closing="Window_Closing">
     <Grid>
         <Image HorizontalAlignment="Stretch" Name="frameHolder"  VerticalAlignment="Stretch"  Stretch="Fill"/>
+        <Button x:Name="Record" Content="Record" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10" Width="80" Height="30" Click="Record_Click" />
     </Grid>
 </Window>
